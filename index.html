@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Validador de tarjetas de crédito</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="recuadro1">
+        <img src="pase-de-juegos.png" alt="Logo inicial" />
+        <p>
+          ¡Aprovecha de comprar en marzo y obtén tu pase mensual con un 30% de
+          descuento!
+        </p>
+      </div>
+    </header>
+
+    <form id="form">
+      <img src="The-Sims-PNG-HD.png" alt="imagenPromo" id="imagenJuego" />
+      <br />
+      <label for="credit-card-number"
+        >Valida tu tarjeta de crédito para realizar el pago:</label
+      >
+      <input type="number" id="credit-card-number" name="credit-card-number" />
+      <button type="submit">Validar</button>
+    </form>
+    <div id="result"></div>
+    <br />
+    <footer>
+      La suscripción se factura automáticamente cada mes. Contacte a servicio al
+      cliente para anular el pago automático.
+    </footer>
+    <script src="index.js"></script>
+    <script src="validator.js"></script>
+  </body>
+</html>
